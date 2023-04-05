@@ -1,7 +1,7 @@
 <template>
   <div>
     <router-link to="/">Back Home Page</router-link>
-    <br>
+    <br />
     <h2>{{ item.title }}</h2>
     <img
       :src="item?.images?.fixed_height?.url"
@@ -16,7 +16,16 @@
 export default {
   data() {
     return {
-      item: {},
+      item: {
+        title: '',
+        images: {
+          fixed_height: {
+            url: '',
+            height: '',
+            width: ''
+          }
+        }
+      },
     };
   },
   methods: {
