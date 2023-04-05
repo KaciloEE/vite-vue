@@ -1,5 +1,6 @@
 {
-  "name": "test-vite-vue-vuetify",
+  "name": "vite-vue",
+  "homepage": "https://kaciloee.github.io/vite-vue/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
